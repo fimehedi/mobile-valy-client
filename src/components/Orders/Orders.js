@@ -1,7 +1,7 @@
 import { CircularProgress, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core';
 import React, { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../App';
-import OrderedProduct from '../OrderedProduct';
+import OrderedProduct from '../OrderedProduct/OrderedProduct';
 
 const Orders = () => {
     const [loggedInUser] = useContext(UserContext);
