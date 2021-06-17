@@ -1,0 +1,52 @@
+.socialOption {
+    width: 400px;
+    border-radius: 20px !important;
+    position: relative;
+    height: 40px;
+}
+
+.socialOption.google {
+    margin-bottom: 10px !important;
+}
+
+.socialOption img {
+    position: absolute;
+    left: 5px;
+    height: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.subtitle::before,
+.subtitle::after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 1px;
+    background-color: #0000006b;
+    position: absolute;
+}
+
+.subtitle::before {
+    left: 0;
+    top: 10px;
+}
+
+.subtitle::after {
+    right: 0;
+    top: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .socialOption {
+        width: 100%;
+    }
+
+
+
+}

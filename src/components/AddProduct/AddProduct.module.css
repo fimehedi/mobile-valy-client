@@ -1,0 +1,28 @@
+.addFrom {
+    padding: 50px 30px;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.submit {
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 425px) {
+    .formGroup {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .formGroup div,
+    .formGroup .uploadBtn {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+
+}

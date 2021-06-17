@@ -1,0 +1,26 @@
+.checkoutContainer {
+    margin-top: 50px;
+    position: relative;
+}
+
+.checkoutContainer button {
+    position: absolute;
+    right: 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tableHead tr th {
+    color: rgba(0, 0, 0, 0.54) !important
+}
+
+.tableFooter tr>* {
+    border-bottom: none !important;
+    border-top: 1px solid rgba(224, 224, 224, 1) !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-size: 16px;
+    font-weight: bold;
+}

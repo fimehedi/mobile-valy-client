@@ -1,0 +1,15 @@
+.loginForm {
+    border-radius: 10px !important;
+}
+
+.form-title {
+    margin-top: 0;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}

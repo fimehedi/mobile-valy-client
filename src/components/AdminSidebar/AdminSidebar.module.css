@@ -1,0 +1,64 @@
+.sidebarContainer {
+    background-color: #19103F;
+    width: 300px;
+    height: 100vh;
+}
+
+.AdminLogo {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
+.sidebarContainer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebarContainer nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebarContainer nav ul li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 15px 0 15px 50px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.sidebarContainer nav ul li a:hover {
+    background-color: #2F216A;
+}
+
+.sidebarContainer nav ul li a span {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebarContainer {
+        width: 50px;
+    }
+
+    .sidebarContainer nav ul li {
+        padding: 0;
+        text-align: center;
+    }
+
+    .sidebarContainer nav ul li a {
+        padding: 0;
+        display: inline;
+    }
+
+    .sidebarContainer nav ul li a span {
+        display: none;
+    }
+
+    .AdminLogo {
+        display: none;
+    }
+}

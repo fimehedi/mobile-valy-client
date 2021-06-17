@@ -1,0 +1,24 @@
+.adminHeader {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.adminHeader h3 {
+    margin: 0;
+    padding: 20px 30px;
+}
+
+.adminBodyContent {
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.deleteIcon {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

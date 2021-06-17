@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #2D2D2D;
+}
+
+.navbar ul li a.loginBtn,
+.logoutBrn {
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.navbar ul li a.loginBtn:hover {
+    background-color: #303f9f;
+}
+
+.userName {
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+
+.menuIcon {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding-top: 0;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .navbar {
+        background-color: #ccc;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        border-radius: 5px;
+        display: none;
+        z-index: 99;
+    }
+
+    .navbar ul {
+        padding: 0 20px;
+    }
+
+    .navbar ul li {
+        display: block;
+    }
+
+    .navbar ul li a {
+        padding: 10px 0;
+    }
+
+    .userName {
+        padding: 10px 0;
+    }
+
+    .loginBtn,
+    .logoutBrn {
+        margin-top: 10px;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .show {
+        display: block;
+    }
+}
