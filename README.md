@@ -1,6 +1,6 @@
 # Mobile Valy
 
-Mobile Valy is a Full Stack Application. In this application React used in Front End and Node (Express) used for the backend API. .Try it now [Mobile Valy](https://mobile-valy.web.app).
+Mobile Valy is a React Application. Users can create an account by Google or Facebook or Valid Email and Password. Authenticate users can checkout orders, Review orders, and cancel their orders. Admin can add or delete products. It's hosted on firebase. Try it now [Mobile Valy](https://mobile-valy.web.app).
 
 ## Features of Application
 
@@ -20,10 +20,7 @@ Mobile Valy is a Full Stack Application. In this application React used in Front
 * React Routing
 * Material UI
 * Firebase Authentication
-* Node JS
-* Express JS
 * REST API
-* MongoDB
 
 ### Click 👉 [Mobile Valy](https://mobile-valy.web.app)
 
